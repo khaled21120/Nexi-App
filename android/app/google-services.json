@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "69806751354",
+    "firebase_url": "https://chat-b6488-default-rtdb.firebaseio.com",
+    "project_id": "chat-b6488",
+    "storage_bucket": "chat-b6488.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69806751354:android:6109c80b222e7f3b4445c3",
+        "android_client_info": {
+          "package_name": "com.example.nexi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69806751354-hg686bhusddbddcusdgvuemblv4j8nsp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nexi",
+            "certificate_hash": "b71f7d2fa8effcd7bfc906f92f6bf7c84f484b43"
+          }
+        },
+        {
+          "client_id": "69806751354-fngan9tmtv4hatnnc2oq6lp8gleidt4c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVvaFktM57qvFyfcu6KlQ1-OsxLTWeaP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69806751354-fngan9tmtv4hatnnc2oq6lp8gleidt4c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "69806751354-ep1mjrbsf3tuv55ai8a0h54evia9moki.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.nexi"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,11 @@
+flutter_native_splash:
+  color: "#ffffff" # Light background (white)
+  image: assets/splash_light.png
+
+  android_12:
+    image: assets/splash_light.png
+    color: "#ffffff" # Light background for Android 12 and above
+
+  android: true
+  ios: true
+  web: true

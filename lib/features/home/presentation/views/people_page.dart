@@ -6,7 +6,7 @@ import 'package:nexi/features/auth/data/models/user_model.dart';
 import 'package:nexi/features/home/presentation/cubit/people_cubit.dart';
 
 import '../../../../core/widgets/search_text_field.dart';
-import 'widgets/users_list_item.dart';
+import 'widget/users_list_item.dart';
 
 class PeoplePage extends StatefulWidget {
   const PeoplePage({super.key});

@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
 import 'package:nexi/features/groups/presentation/cubit/group_cubit.dart';
-import 'package:nexi/features/home/presentation/views/widgets/shimmer_list_item.dart';
+import 'package:nexi/features/home/presentation/views/widget/shimmer_list_item.dart';
 
 import '../../../../core/utils/helper.dart';
 import '../../../../core/widgets/search_text_field.dart';

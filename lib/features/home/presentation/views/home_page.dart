@@ -9,8 +9,8 @@ import '../../../../core/utils/helper.dart';
 import '../../../profile/presentation/views/profile_page.dart';
 import '../../../chat/data/models/rooms_model.dart';
 import '../../../chat/presentation/cubit/chats_cubit.dart';
-import 'widgets/room_list_item.dart';
-import 'widgets/shimmer_list_item.dart';
+import 'widget/room_list_item.dart';
+import 'widget/shimmer_list_item.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

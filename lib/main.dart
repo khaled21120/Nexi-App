@@ -22,7 +22,7 @@ final navigatorKey = GlobalKey<NavigatorState>();
 Future<void> main() async {
   final widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
   FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
-
+  await ScreenUtil.ensureScreenSize();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   await PrefsService.init();
   await dotenv.load(fileName: ".env");
@@ -34,9 +34,6 @@ Future<void> main() async {
 }
 
 Future<void> _postInit() async {
-  final userID = Helper.getUserDataLocally()?.id ?? 'User_Id';
-  final userName = Helper.getUserDataLocally()?.name ?? 'User_Id';
-
   await LocalNotificationService.init();
 
   ZegoUIKitPrebuiltCallInvitationService().setNavigatorKey(navigatorKey);
@@ -44,7 +41,7 @@ Future<void> _postInit() async {
   await ZegoUIKitPrebuiltCallInvitationService().useSystemCallingUI([
     ZegoUIKitSignalingPlugin(),
   ]);
-  ZegoService.initialize(userID: userID, userName: userName);
+  ZegoService.initialize(userID: 'User_Id', userName: 'userName');
 
   FlutterNativeSplash.remove();
 }
